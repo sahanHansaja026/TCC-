@@ -1,3 +1,14 @@
+# download postgresql
+-------------------------------------------------------
+```bash
+https://www.postgresql.org/download/
+```
+
+# download pgadmin
+``` bash
+https://www.pgadmin.org/download/
+```
+
 # backend run
 --------------------------------------------------------
 ```bash
