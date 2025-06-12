@@ -66,6 +66,10 @@ function YouTubeExtractor() {
           <p><strong>Views:</strong> {videoData.views}</p>
           <p><strong>Duration:</strong> {videoData.duration}</p>
           <p><strong>Published:</strong> {videoData.publish_date}</p>
+          <p><strong>transcript_text:</strong> {videoData.transcript_text}</p>
+          <p><strong>transcript_available:</strong> {videoData.transcript}</p>
+          <pre style={{ marginTop: "24rem", whiteSpace: "pre-wrap" }}>{videoData.summary}</pre>
+          <p >{videoData.summary}</p>
         </div>
       )}
     </div>

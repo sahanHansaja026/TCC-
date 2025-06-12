@@ -1,7 +1,13 @@
 fastapi
 uvicorn
-pdfplumber
+pydantic
+pydantic-settings
 python-multipart
+yt-dlp
+pdfplumber
 sumy
 numpy
-pytube
+youtube-transcript-api
+google-generativeai
+requests
+aiofiles

@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import PDF from "./pdf";
 import NavBar from "./navbar";
 import YouTube from "./youtube";
+import ChatBot from "./chatbot";
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<PDF />} />
         <Route exact path="/youtube" element={<YouTube />} />
+        <Route exact path="/chatbot" element={<ChatBot />} />
       </Routes>
     </div>
   );
